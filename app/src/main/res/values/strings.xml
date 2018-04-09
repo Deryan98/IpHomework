@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Tarea Ip</string>
+    <string name="ip_direccion">IP</string>
+    <string name="mascara_de_red">Mascara</string>
+    <string name="octeto_default">000</string>
+    <string name="pleca">/</string>
+    <string name="net_id">Net ID</string>
+    <string name="mascara_default">00</string>
+    <string name="broadcast">Broadcast</string>
+    <string name="cantidad_de_host">Cantidad de Host</string>
+    <string name="parte_de_red">Parte de Red</string>
+    <string name="parte_de_host">Parte de Host</string>
+    <string name="calcular_boton">Calcular</string>
+</resources>

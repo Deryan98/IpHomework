@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:stretchColumns="*"
+    android:gravity="center"
+    android:orientation="vertical"
+    >
+
+    <!--FILA 1-->
+    <TableRow
+        android:layout_marginBottom="10dp"
+        >
+
+        <!--IP DIRECCION-->
+        <TextView
+            android:text="@string/ip_direccion"
+            android:gravity="center"
+            android:layout_span="4"
+            android:height="30dp"/>
+        <!--IP DIRECCION-->
+
+        <!--MASCARA-->
+        <TextView
+            android:text="@string/mascara_de_red"
+            android:gravity="center"
+            android:layout_span="2"
+            android:height="30dp"
+            />
+        <!--MASCARA-->
+
+    </TableRow>
+    <!--FILA 1-->
+
+    <!--FILA 2-->
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <!--OCTETO 1-->
+        <EditText
+            android:id="@+id/octeto_1"
+            android:height="30dp"
+            android:gravity="center"
+            android:hint="@string/octeto_default"
+            android:inputType="number"
+            android:maxLength="3"
+            />
+        <!--OCTETO 1-->
+
+        <!--OCTETO 2-->
+        <EditText
+            android:inputType="number"
+            android:hint="@string/octeto_default"
+            android:gravity="center"
+            android:id="@+id/octeto_2"
+            android:height="30dp"
+            android:maxLength="3"
+            />
+        <!--OCTETO 2-->
+
+        <!--OCTETO 3-->
+        <EditText
+            android:inputType="number"
+            android:hint="@string/octeto_default"
+            android:gravity="center"
+            android:id="@+id/octeto_3"
+            android:height="30dp"
+            android:maxLength="3"
+            />
+        <!--OCTETO 3-->
+
+        <!--OCTETO 4-->
+        <EditText
+            android:inputType="number"
+            android:hint="@string/octeto_default"
+            android:gravity="center"
+            android:id="@+id/octeto_4"
+            android:height="30dp"
+            android:maxLength="3"
+            />
+        <!--OCTETO 4-->
+
+        <!--PLECA-->
+        <TextView
+            android:text="@string/pleca"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            />
+        <!--PLECA-->
+
+        <!--MASCARA NUMERO-->
+        <EditText
+            android:inputType="number"
+            android:hint="@string/mascara_default"
+            android:gravity="center"
+            android:id="@+id/mascara_numero"
+            android:height="30dp"
+            android:maxLength="2"
+            />
+        <!--MASCARA NUMERO-->
+
+    </TableRow>
+    <!--FILA 2-->
+
+    <!--FILA 3-->
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <!--NET ID-->
+        <TextView
+            android:layout_width="26dp"
+            android:height="30dp"
+            android:gravity="center"
+            android:text="@string/net_id"
+        />
+
+
+        <!--NET ID-->
+
+    </TableRow>
+    <!--FILA 3-->
+
+    <!--FILA 4-->
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <!--NET ID NUMERO-->
+        <TextView
+            android:id="@+id/net_id_numero"
+            android:gravity="center"
+            android:layout_span="6"
+            android:height="30dp"
+            android:textSize="20dp"
+            />
+        <!--NET ID NUMERO-->
+
+    </TableRow>
+    <!--FILA 4-->
+
+    <!--FILA 5-->
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <!--BROADCAST-->
+        <TextView
+            android:text="@string/broadcast"
+            android:gravity="center"
+            android:height="30dp"
+            />
+        <!--BROADCAST-->
+
+    </TableRow>
+    <!--FILA 5-->
+
+    <!--FILA 6-->
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <!--BROADCAST ID NUMERO-->
+        <TextView
+            android:id="@+id/broadcast_numero"
+            android:gravity="center"
+            android:layout_span="6"
+            android:height="30dp"
+            android:textSize="20sp"
+            />
+        <!--BROADCAST ID NUMERO-->
+
+    </TableRow>
+    <!--FILA 6-->
+
+    <!--FILA 7-->
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <!--CANTIDAD DE HOST-->
+        <TextView
+            android:layout_span="3"
+            android:height="30dp"
+            android:gravity="center"
+            android:text="@string/cantidad_de_host" />
+        <!--CANTIDAD DE HOST-->
+
+        <!--PARTE DE RED-->
+        <TextView
+            android:text="@string/parte_de_red"
+            android:gravity="center"
+            android:layout_span="3"
+            android:height="30dp"
+            />
+        <!--PARTE DE RED-->
+
+    </TableRow>
+    <!--FILA 7-->
+
+    <!--FILA 8-->
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <!--CANTIDAD DE HOST NUMERO-->
+        <TextView
+            android:id="@+id/cantidad_de_host_numero"
+            android:gravity="center"
+            android:layout_span="3"
+            android:height="30dp"
+            android:textSize="20dp"
+            />
+        <!--CANTIDAD DE HOST NUMERO-->
+
+        <!-- PARTE DE RED NUMERO-->
+        <TextView
+            android:id="@+id/parte_de_red_numero"
+            android:gravity="center"
+            android:layout_span="3"
+            android:height="30dp"
+            android:textSize="20dp"
+            />
+        <!-- PARTE DE RED NUMERO-->
+
+    </TableRow>
+    <!--FILA 8-->
+
+    <!--FILA 9-->
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <!--PARTE DE HOST-->
+
+        <TextView
+            android:text="@string/parte_de_host"
+            android:gravity="center"
+            android:layout_span="6"
+            android:height="30dp"
+            />
+        <!--PARTE DE HOST-->
+
+    </TableRow>
+    <!--FILA 9-->
+
+    <!--FILA 10-->
+    <TableRow
+        android:layout_marginBottom="10dp">
+
+        <!--PARTE DE HOST NUMERO-->
+        <TextView
+            android:id="@+id/parte_de_host_numero"
+            android:gravity="center"
+            android:layout_span="6"
+            android:height="30dp"
+            android:textSize="20dp"
+            />
+        <!--PARTE DE HOST NUMERO-->
+
+    </TableRow>
+    <!--FILA 10-->
+
+    <!--FILA 11-->
+    <TableRow
+        android:layout_marginBottom="10dp"
+        android:gravity="center">
+
+        <!--BOTON CALCULAR-->
+        <Button
+            android:text="@string/calcular_boton"
+            android:id="@+id/boton_calcular"
+            />
+        <!--BOTON CALCULAR-->
+
+    </TableRow>
+    <!--FILA 11-->
+
+
+</TableLayout>
